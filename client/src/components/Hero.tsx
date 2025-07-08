@@ -42,10 +42,26 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button 
               size="lg" 
+              onClick={() => scrollToSection('contact')}
+              className="glow hover:scale-105 transition-transform bg-primary hover:bg-primary/90"
+            >
+              📩 Hire Me
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline"
               onClick={() => scrollToSection('projects')}
-              className="glow hover:scale-105 transition-transform"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground hover:scale-105 transition-transform"
             >
               View My Work
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline"
+              onClick={() => window.open('/resume.pdf', '_blank')}
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground hover:scale-105 transition-transform"
+            >
+              📋 View Resume
             </Button>
             
             <Button 

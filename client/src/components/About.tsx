@@ -17,15 +17,21 @@ const About = () => {
                     Full Stack Developer
                   </h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    I'm a passionate full stack developer with a love for creating 
-                    innovative web applications that solve real-world problems. With 
-                    expertise in modern JavaScript frameworks and backend technologies, 
-                    I bring ideas to life through clean, efficient code.
+                    I'm a passionate full stack developer who discovered my love for coding 
+                    through solving real-world problems. What started as curiosity about 
+                    how websites work has evolved into a mission to create digital experiences 
+                    that genuinely improve people's lives and businesses.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    Beyond the code, I'm fascinated by the intersection of technology and human 
+                    behavior. I believe great software isn't just about clean code—it's about 
+                    understanding users and building solutions that feel intuitive and delightful.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    When I'm not coding, you can find me exploring new technologies, 
-                    contributing to open source projects, or sharing knowledge with 
-                    the developer community.
+                    When I'm not coding, you'll find me exploring new technologies, 
+                    mentoring junior developers, or diving into books about design psychology 
+                    and user experience. I'm always eager to take on new challenges and 
+                    collaborate with teams who share my passion for excellence.
                   </p>
                 </CardContent>
               </Card>
@@ -34,20 +40,28 @@ const About = () => {
             <div className="space-y-6">
               <div>
                 <h4 className="text-lg font-semibold mb-3 text-primary">
-                  What I Do
+                  Services I Offer
                 </h4>
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                    Frontend Development (React, TypeScript, Next.js)
+                    Web Development (Full-stack solutions)
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                    Backend Development (Node.js, Python, APIs)
+                    Frontend Development (React, Next.js, TypeScript)
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                    Database Design & Management
+                    Backend Development (Node.js, APIs, Databases)
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                    AI/Automation Tools & Integration
+                  </li>
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                    Maintenance & Support
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>

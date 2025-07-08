@@ -44,8 +44,11 @@ const Contact = () => {
             <Card className="card-gradient border-border">
               <CardHeader>
                 <CardTitle className="text-2xl text-primary">
-                  Send Me a Message
+                  📞 Let's Talk
                 </CardTitle>
+                <p className="text-muted-foreground">
+                  Ready to bring your project to life? I'd love to hear about your vision and discuss how I can help make it reality.
+                </p>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">

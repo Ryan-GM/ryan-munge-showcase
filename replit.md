@@ -109,4 +109,5 @@ Preferred communication style: Simple, everyday language.
 ## Changelog
 
 Changelog:
-- July 08, 2025. Initial setup
+- July 08, 2025: Initial setup - migrated from Lovable to Replit
+- July 08, 2025: Enhanced portfolio with personalization, detailed project case studies, testimonials, improved CTAs, dark/light theme toggle, GitHub stats, progress indicators, and better mobile optimization

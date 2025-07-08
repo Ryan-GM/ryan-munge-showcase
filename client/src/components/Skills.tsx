@@ -56,7 +56,7 @@ const Skills = () => {
               </h3>
               <div className="space-y-8">
                 {skillCategories.map((category, index) => (
-                  <Card key={index} className="card-gradient border-border">
+                  <Card key={index} className="card-gradient border-border hover:glow transition-all duration-300">
                     <CardHeader>
                       <CardTitle className="text-lg text-primary">
                         {category.title}
@@ -65,16 +65,16 @@ const Skills = () => {
                     <CardContent>
                       <div className="space-y-4">
                         {category.skills.map((skill, skillIndex) => (
-                          <div key={skillIndex}>
+                          <div key={skillIndex} className="group">
                             <div className="flex justify-between mb-2">
-                              <span className="text-sm font-medium text-foreground">
+                              <span className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">
                                 {skill.name}
                               </span>
-                              <span className="text-sm text-muted-foreground">
+                              <span className="text-sm text-muted-foreground font-mono">
                                 {skill.level}%
                               </span>
                             </div>
-                            <Progress value={skill.level} className="h-2" />
+                            <Progress value={skill.level} className="h-2 transition-all duration-300 group-hover:h-3" />
                           </div>
                         ))}
                       </div>
