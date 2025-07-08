@@ -1,12 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Moon, Sun } from 'lucide-react';
-import { useTheme } from '@/components/ThemeProvider';
+import { Menu, X } from 'lucide-react';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
-  const { theme, toggleTheme } = useTheme();
 
   const navItems = [
     { id: 'home', label: 'Home' },
@@ -52,7 +50,7 @@ const Navigation = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <button
                 key={item.id}
@@ -66,14 +64,6 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={toggleTheme}
-              className="ml-4"
-            >
-              {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
-            </Button>
           </div>
 
           {/* Mobile menu button */}

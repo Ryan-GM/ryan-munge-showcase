@@ -8,61 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Light theme */
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-
-    --primary: 199 89% 48%;
-    --primary-foreground: 0 0% 98%;
-
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-
-    --accent: 270 80% 60%;
-    --accent-foreground: 240 5.9% 10%;
-
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 199 89% 48%;
-
-    --radius: 0.75rem;
-
-    /* Custom portfolio colors - Light theme */
-    --hero-gradient: linear-gradient(135deg, hsl(199 89% 48%) 0%, hsl(270 80% 60%) 100%);
-    --card-gradient: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(240 4.8% 95.9%) 100%);
-    --glow: 0 0 30px hsl(199 89% 48% / 0.3);
-    --text-gradient: linear-gradient(135deg, hsl(199 89% 48%) 0%, hsl(270 80% 60%) 100%);
-
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
-
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 10% 3.9%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 240 4.8% 95.9%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 240 5.9% 90%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    /* Dark theme */
+    /* Dark theme only */
     --background: 210 30% 8%;
     --foreground: 210 40% 95%;
 
@@ -91,7 +37,9 @@ All colors MUST be HSL.
     --input: 210 30% 15%;
     --ring: 199 89% 48%;
 
-    /* Custom portfolio colors - Dark theme */
+    --radius: 0.75rem;
+
+    /* Custom portfolio colors */
     --hero-gradient: linear-gradient(135deg, hsl(199 89% 48%) 0%, hsl(270 80% 60%) 100%);
     --card-gradient: linear-gradient(135deg, hsl(210 30% 12%) 0%, hsl(210 30% 8%) 100%);
     --glow: 0 0 30px hsl(199 89% 48% / 0.3);
