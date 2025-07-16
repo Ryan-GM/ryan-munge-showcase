@@ -109,7 +109,7 @@ const Contact = () => {
                   <div className="space-y-4">
                     <div className="flex items-center gap-3">
                       <Mail className="text-primary" size={20} />
-                      <span className="text-muted-foreground">ryan.munge@email.com</span>
+                      <span className="text-muted-foreground">rgmunge@gmail.com</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <MapPin className="text-primary" size={20} />
