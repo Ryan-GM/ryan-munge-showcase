@@ -37,7 +37,7 @@ const Footer = () => {
                 
                 <div className="text-center">
                   <Button asChild>
-                    <a href="https://github.com/ryanmunge" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/orgs/Ryan-GM/repositories" target="_blank" rel="noopener noreferrer">
                       <Github size={16} className="mr-2" />
                       View GitHub Profile
                     </a>
@@ -56,7 +56,7 @@ const Footer = () => {
             
             <div className="flex space-x-6">
               <a 
-                href="https://github.com/ryanmunge" 
+                href="https://github.com/orgs/Ryan-GM/repositories" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform"
