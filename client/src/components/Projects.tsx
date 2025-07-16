@@ -12,8 +12,8 @@ const Projects = () => {
       role: "Full-stack Developer",
       outcome: "Boosted client sales by 35% and reduced operational costs by 20%",
       features: ["User authentication", "Payment processing", "Admin dashboard", "Inventory management"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      github: "https://github.com/Ryan-GM/totog-commerce-hub.git",
+      demo: "https://totog-commerce-hub.vercel.app"
     },
     {
       title: "Task Management App",
@@ -45,8 +45,8 @@ const Projects = () => {
       role: "Full-stack Developer",
       outcome: "Reduced report generation time by 90% and increased client satisfaction scores",
       features: ["Multi-platform integration", "Automated reporting", "Custom dashboards", "Client portals"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      github: "https://github.com/Ryan-GM/Social-Pulse-Analytics-.git",
+      demo: "https://social-pulse-analytics.onrender.com"
     }
   ];
 
