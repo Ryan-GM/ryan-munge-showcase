@@ -3,6 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+    <title>Ryan Munge — Developer Portfolio</title>
+    <meta name="description" content="Explore Ryan Munge’s developer portfolio: projects, skills, and contact info. Modern, fast, and responsive." />
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Canonical URL (set dynamically to current origin/path) -->
+    <link rel="canonical" href="/" id="canonical-link" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ryan Munge — Developer Portfolio" />
+    <meta property="og:description" content="Explore Ryan Munge’s developer portfolio: projects, skills, and contact info." />
+    <meta property="og:image" content="/placeholder.svg" />
+    <meta property="og:url" content="/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ryan Munge — Developer Portfolio" />
+    <meta name="twitter:description" content="Explore Ryan Munge’s developer portfolio: projects, skills, and contact info." />
+    <meta name="theme-color" content="#0b1520" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ryan Munge",
+        "url": "/",
+        "jobTitle": "Software Developer",
+        "sameAs": [
+          "https://github.com/orgs/Ryan-GM/repositories",
+          "https://www.linkedin.com/in/ryan-munge"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Ryan Munge — Developer Portfolio",
+        "url": "/"
+      }
+    </script>
+
+    <!-- Dynamically set canonical/og:url to the current URL -->
+    <script>
+      (function() {
+        try {
+          var link = document.getElementById('canonical-link');
+          if (link) link.setAttribute('href', window.location.origin + window.location.pathname);
+          var ogUrl = document.querySelector('meta[property="og:url"]');
+          if (ogUrl) ogUrl.setAttribute('content', window.location.href);
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
